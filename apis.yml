@@ -1,7 +1,19 @@
 aid: movel-ai
 name: Movel AI
-description: Movel AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Movel AI is a Singapore-based robotics deployment software company, founded in
+  2016, that makes it faster and cheaper to get autonomous mobile robots up and
+  running in real-world environments. Its platform pairs deep learning, sensor
+  fusion, and probabilistic planning so robots can perceive their surroundings
+  and plan tasks on their own. Core products are the Movel Fleet Management
+  System (FMS) for real-time monitoring and control of multi-robot fleets and
+  Movel RNS (Robotic Navigation System) for precise single-robot navigation of
+  complex spaces, applied across logistics, manufacturing, construction, and
+  healthcare. The company is backed by Silicon Solution Ventures, 500 Global,
+  AviTech, SGInnovate, Seeds Capital, and Enterprise Singapore. It was surfaced
+  as a portfolio company of 500 Global and added to the API Evangelist network.
+  As of this enrichment pass Movel AI publishes no public API, developer portal,
+  SDK, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/movel-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Robotic Automation
+- Autonomous Mobile Robots
+- Fleet Management
+- Robot Navigation
+- Warehouse Automation
+- Deep Learning
+- Singapore
+image: https://movel.ai
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/movel-ai-domain-security.yml
 - type: Website
   url: https://movel.ai
+- type: Blog
+  url: https://www.movel.ai/blog
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
